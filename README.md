@@ -55,3 +55,36 @@ The GUID for data sync with the desktop version is auto-generated. We suggest no
     * MMEX_New_Transaction.db
  2. Unzip all files in the same folder as the original installation.
  3. The first time you open the WebApp, it automatically upgrades the database to new version.
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Run your end-to-end tests
+```
+npm run test:e2e
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
